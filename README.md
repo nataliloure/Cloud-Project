@@ -1,6 +1,10 @@
 ### Cloud ☁️  
 ## Sistema de Gestão de Pacientes em Nuvem para Operadoras de Saúde 📉 
 
+![image](https://github.com/nataliloure/Cloud-Project/assets/138037869/21b9d549-e666-4397-844c-21cd35524e54)
+
+
+
 
 Descrição do Projeto:
 Desenvolver um sistema de gestão de pacientes em nuvem que permita às operadoras de saúde gerenciar eficientemente o histórico médico, agendamentos de consultas, prescrições médicas e comunicação entre médicos e pacientes.
