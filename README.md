@@ -63,7 +63,7 @@ Essa arquitetura utiliza os serviços gerenciados do Azure para fornecer uma sol
 
 Referência:
 
-https://learn.microsoft.com/pt-br/training/modules/analyze-climate-data-with-azure-notebooks/0-introduction
-
+[https://learn.microsoft.com/pt-br/training/modules/analyze-climate-data-with-azure-notebooks/0-introduction
+](https://learn.microsoft.com/en-us/azure/?product=popular)
 
 
