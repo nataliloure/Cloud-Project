@@ -1,0 +1,26 @@
+Passo 1: Dockerizar os Serviços
+Crie um arquivo Dockerfile para cada serviço da sua aplicação, como frontend, backend, banco de dados, etc.
+No Dockerfile, defina as dependências do serviço, copie os arquivos necessários e especifique os comandos para iniciar o serviço.
+Construa as imagens Docker executando docker build -t <nome_da_imagem> . no diretório de cada serviço.
+Passo 2: Testar as Imagens Docker Localmente
+Execute as imagens Docker localmente usando docker run para garantir que cada serviço esteja funcionando corretamente em um contêiner isolado.
+Teste a comunicação entre os contêineres, se necessário, para garantir que os serviços possam se comunicar corretamente.
+Passo 3: Configurar o Cluster Kubernetes
+Provisione um cluster Kubernetes no Azure usando a ferramenta Azure Kubernetes Service (AKS) ou outra opção de sua preferência.
+Configure o acesso ao cluster Kubernetes localmente executando az aks get-credentials --resource-group <nome_do_grupo_de_recursos> --name <nome_do_cluster>.
+Passo 4: Definir Manifestos Kubernetes
+Crie arquivos YAML de manifesto para cada serviço da sua aplicação, descrevendo os pods, serviços, volumes, etc.
+Especifique os recursos necessários para cada contêiner, como CPU, memória, volumes, etc.
+Configure os serviços Kubernetes para expor os serviços da aplicação de forma acessível dentro do cluster.
+Passo 5: Implantar Aplicação no Kubernetes
+Aplique os manifestos Kubernetes usando kubectl apply -f <arquivo_manifesto.yaml> para implantar cada serviço no cluster.
+Verifique o estado dos pods e serviços usando kubectl get pods e kubectl get services para garantir que tudo esteja em execução corretamente.
+Passo 6: Testar e Escalonar a Aplicação
+Teste a aplicação implantada acessando o serviço exposto e verificando se tudo está funcionando conforme o esperado.
+Para escalar os serviços, use comandos como kubectl scale deployment <nome_do_deployment> --replicas=<número_de_replicas> para aumentar ou diminuir o número de réplicas de um serviço.
+Passo 7: Monitorar e Manter o Cluster Kubernetes
+Use ferramentas de monitoramento como Prometheus, Grafana, ou ferramentas nativas do Azure para monitorar a saúde e o desempenho do cluster e dos serviços.
+Aplique atualizações e correções conforme necessário, usando rolling updates para garantir que não haja interrupção no serviço.
+Passo 8: Gerenciar os Recursos do Azure
+Monitore e gerencie os recursos do Azure associados ao seu cluster Kubernetes, como VMs, discos, IPs públicos, etc.
+Otimize os recursos para reduzir custos, dimensionando-os de acordo com as demandas da aplicação.
