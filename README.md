@@ -57,7 +57,9 @@ Melhoria na eficiência operacional das operadoras, reduzindo o tempo de espera 
 Essa arquitetura utiliza os serviços gerenciados do Azure para fornecer uma solução altamente escalável, segura e de alto desempenho para uma operadora de saúde. Além disso, permite a integração com serviços de terceiros, conformidade regulatória e fácil manutenção e gerenciamento da infraestrutura em nuvem.
 
 
+Referência:
 
+https://learn.microsoft.com/pt-br/training/modules/analyze-climate-data-with-azure-notebooks/0-introduction
 
 
 
